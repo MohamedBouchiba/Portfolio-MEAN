@@ -1,0 +1,42 @@
+.navbar_custom {
+    background-color: #CEBDA3;
+}
+
+.navbar-logo{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #635C52;
+}
+
+.navbar-logo:hover{
+    color: #FFF;
+}
+
+#BarDeNavigation > ul > li > a {
+    border-radius: 14px;
+    color: #FFF;
+}
+
+#BarDeNavigation > ul > li > a:hover {
+
+    background-color: #FFF;
+    color:#635C52;
+}
+
+#BarDeNavigation > ul > li > a:focus {
+
+    background-color: #C3AE8E !important;
+    border-radius: 14px;
+    color:#FFF;
+}
+
+#BarDeNavigation > ul > li.active_custom{
+    background-color: #C3AE8E !important;
+    border-radius: 14px;
+    color:#FFF;
+}
+
+.icon-bar{
+    background-color: #FFF;
+}
