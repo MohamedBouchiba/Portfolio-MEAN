@@ -4,15 +4,45 @@
     background: url("../../img/home-background.jpg") no-repeat center fixed;
     height: 100%;
     width: 100%;
-    opacity: 0.80;
 }
 
-.item1{
-    opacity: 1;
+.logo-mohamed{
     display: block;
-    width: 25%;
-    height: 40%;
+    width: 15%;
     position: relative;
-    top: 40%;
-    left: 40%;
+    top: 25%;
+    left: 43%;
+    animation-duration: 4s;
+}
+
+.animated.bounceIn.logo-mohamed{
+
+    animation-duration: 2s;
+    animation-delay:2s;
+
+}
+
+.animated.rubberBand{
+
+    animation-duration: 2s;
+    -webkit-animation-delay:2.2s;
+    -o-animation-delay:2.2s;
+    animation-delay:2.2s;
+}
+
+.ecrant-gauche{
+    display: block;
+    width: 17% !important;
+    position: relative;
+    top: 13%;
+    left: 17%;
+}
+
+.ecrant-droite{
+
+    display: block;
+    width: 17% !important;
+    position: relative;
+    top: 13%;
+    left: 49%;
 }
