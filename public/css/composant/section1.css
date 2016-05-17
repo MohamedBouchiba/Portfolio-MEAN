@@ -8,11 +8,12 @@
 
 .logo-mohamed{
     display: block;
-    width: 15%;
+    width: 19.5%;
     position: relative;
-    top: 25%;
-    left: 43%;
+    top: 20%;
+    left: 42%;
     animation-duration: 4s;
+    text-align: center;
 }
 
 .animated.bounceIn.logo-mohamed{
@@ -34,8 +35,8 @@
     display: block;
     width: 17% !important;
     position: relative;
-    top: 13%;
-    left: 17%;
+    top: 39%;
+    left: 2%;
 }
 
 .ecrant-droite{
@@ -43,6 +44,6 @@
     display: block;
     width: 17% !important;
     position: relative;
-    top: 13%;
-    left: 49%;
+    top: 39%;
+    left: 28%;
 }
