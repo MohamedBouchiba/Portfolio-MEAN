@@ -47,3 +47,13 @@
     top: 39%;
     left: 28%;
 }
+
+.clavier{
+
+    display: block;
+    width: 17% !important;
+    position: relative;
+    top: 39%;
+    left: 15%;
+
+}

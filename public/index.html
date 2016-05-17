@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>MEAN APP</title>
@@ -22,7 +22,7 @@
         <div class="navbar-header">
 
             <!-- Button hamburger -->
-            <button type="button"   class="navbar-toggle" data-toggle="collapse" data-target="#BarDeNavigation">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#BarDeNavigation">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -33,7 +33,7 @@
         </div><!-- End Logo Navbar -->
 
         <!-- Menu Navbar -->
-      <div class="collapse navbar-collapse " id="BarDeNavigation">
+        <div class="collapse navbar-collapse " id="BarDeNavigation">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active_custom"><a href="#sectionAcceuil">Acceuil</a></li>
                 <li><a href="#section2">&Agrave; propos de moi</a></li>
@@ -48,44 +48,38 @@
 
 
 <!--Page d'accueil -->
-
-
-
-
-
 <section class="section1 col-lg-12 col-md-12 col-xs-12" id="sectionAcceuil">
     <!--Image Logo central-->
     <div class="col-lg-3 col-md-3 col-xs-3 animated bounceIn logo-mohamed">
         <div class="animated rubberBand" data-animation-duration="10">
-           <img src="img/logo-mohamed.png" class="img-responsive"  alt="">
+            <img src="img/logo-mohamed.png" class="img-responsive" alt="">
         </div>
     </div><!--End Image Logo central-->
 
-    <div class="col-lg-3 col-md-3 col-xs-3 animated fadeInLeft ecrant-gauche">
-        <img src="img/EcrantGauche.png" class="img-responsive" width="100%" alt="">
-    </div>
+    <div class="row">
+        <!--Ecrant de droite avec animation-->
+        <div class="col-lg-3 col-md-3 col-xs-3 animated fadeInLeft ecrant-gauche">
+            <img src="img/EcrantGauche.png" class="img-responsive" width="100%" alt="">
+        </div><!--End Ecrant de droite avec animation-->
 
-    <div class="col-lg-3 col-md-3 col-xs-3 animated fadeInRight ecrant-droite ">
-        <img src="img/EcrantDroite.png" class="img-responsive" width="100%" alt="">
+        <!--Ecrant de gauche avec animation-->
+        <div class="col-lg-3 col-md-3 col-xs-3 animated fadeInRight ecrant-droite ">
+            <img src="img/EcrantDroite.png" class="img-responsive" width="100%" alt="">
+        </div><!--End Ecrant de gauche avec animation-->
     </div>
+    <!--Image clavier avec animation-->
+    <div class="col-lg-3 col-md-3 col-xs-3 animated fadeInRight clavier ">
+        <!-- <img src="img/EcrantDroite.png" class="img-responsive" width="100%" alt=""> -->
+    </div><!--End Image clavier avec animation-->
+
 
 </section><!--End Page d'accueil -->
 
 
-
-
-
-
-
-    <section class="section2 col-lg-12 col-md-12 col-xs-12" id="section2">hjk</section>
-    <section class="section3 col-lg-12 col-md-12 col-xs-12" id="section3"></section>
-    <section class="section4 col-lg-12 col-md-12 col-xs-12" id="section4"></section>
-    <section class="section5 col-lg-12 col-md-12 col-xs-12" id="section5"></section>
-
-
-
-
-
+<section class="section2 col-lg-12 col-md-12 col-xs-12" id="section2">hjk</section>
+<section class="section3 col-lg-12 col-md-12 col-xs-12" id="section3"></section>
+<section class="section4 col-lg-12 col-md-12 col-xs-12" id="section4"></section>
+<section class="section5 col-lg-12 col-md-12 col-xs-12" id="section5"></section>
 
 
 <script src="js/jquery-2.2.3.min.js"></script>
