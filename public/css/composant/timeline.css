@@ -141,7 +141,8 @@ table {
 }
 @media only screen and (min-width: 1100px) {
     .cd-horizontal-timeline {
-        margin: 6em auto;
+        margin: auto;
+        margin-top: 6em;
     }
     .cd-horizontal-timeline::before {
         /* never visible - this is used in jQuery to check the current MQ */
@@ -217,7 +218,8 @@ table {
 .cd-horizontal-timeline .events-content {
     position: relative;
     width: 100%;
-    margin: 2em 0;
+    margin: auto;
+    margin-top: 2em;
     overflow: hidden;
     -webkit-transition: height 0.4s;
     -moz-transition: height 0.4s;
@@ -292,6 +294,8 @@ table {
     font-size: 1.4rem;
     color: #959595;
     margin-top: 26px;
+    height: auto;
+    margin-bottom: 50px;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
     line-height: 1.6;
@@ -306,9 +310,7 @@ table {
     }
     .cd-horizontal-timeline .events-content p {
         font-size: 1.8rem;
-        margin-top: 26px;
-        height: 195px;
-    }
+        min-height: 300px;
 }
 
 @-webkit-keyframes cd-enter-right {
@@ -386,9 +388,11 @@ table {
         -o-transform: translateX(0%);
         transform: translateX(0%);
     }
-}
+}  }
+
+
 .img-custome-timeline{
-    width: 190px;
+    width: 260px;
     margin-right: 40px;
     margin-bottom: 20px;
     height: auto;
@@ -396,5 +400,4 @@ table {
 }
 
 .img-mohamed-timeline{
-    width: 125px;
-}
+    width: 150px;}
