@@ -12,15 +12,9 @@
     position: relative;
     top: 20%;
     left: 42%;
-    animation-duration: 4s;
     text-align: center;
-}
-
-.animated.bounceIn.logo-mohamed {
-
     animation-duration: 2.6s;
     animation-delay: 3.9s;
-
 }
 
 .animated.rubberBand {
@@ -126,4 +120,100 @@
     animation-duration: 0.5s;
     animation-delay: 3.3s;
     text-align: center;
+}
+
+/* Landscape phones and down */
+@media (max-width: 600px) {
+
+
+    .logo-mohamed {
+        display: block;
+        width: 52.5%;
+        position: relative;
+        top: 11%;
+        left: 26%;
+        text-align: center;
+        animation-duration: 2.6s;
+        animation-delay: 2.4s;
+    }
+
+    .animated.rubberBand {
+
+        animation-duration: 3s;
+        -webkit-animation-delay: 2.2s;
+        -o-animation-delay: 2.2s;
+        animation-delay: 2.8s;
+    }
+
+    .ecrant-droite {
+
+        display: block;
+        width: 51% !important;
+        position: relative;
+        top: 18%;
+        left: 26.35%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .clavier {
+
+        display: block;
+        width: 42% !important;
+        position: relative;
+        top: 49%;
+        left: -24%;
+        animation-duration: 0.5s;
+        animation-delay: 0.8s;
+        text-align: center;
+
+    }
+
+    .souris {
+
+        display: block;
+        width: 15.3% !important;
+        position: relative;
+        top: 40%;
+        left: 20.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.3s;
+        text-align: center;
+
+    }
+
+
+    .cafe {
+
+        display: block;
+        width: 21.4% !important;
+        position: relative;
+        top: 37%;
+        left: -63.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.8s;
+        text-align: center;
+    }
+
+    .ecrant-gauche {
+        display: none;
+    }
+
+    .ipad {
+
+        display: none;
+    }
+
+    .block-note {
+
+        display: none;
+    }
+
+    .papier {
+
+        display: none;
+    }
+
+
 }
