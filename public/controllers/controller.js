@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', []);
+var myApp = angular.module('myApp', ['angular-svg-round-progressbar']);
 myApp.controller('AppCtrl', ['$scope','$http',
     function ($scope , $http) {
         console.log('TestZER')
@@ -7,7 +7,7 @@ myApp.controller('AppCtrl', ['$scope','$http',
             console.log($scope.User)
 
         };
-        
+
 }]);
 
 

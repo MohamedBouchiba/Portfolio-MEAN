@@ -1,5 +1,7 @@
 /* --- Composant du site ---*/
 @import url("composant/navbar.css");
+@import url("composant/timeline.css");
+@import url("composant/progressBar.css");
 @import url("composant/section1.css");
 @import url("composant/section2.css");
 @import url("composant/section3.css");
