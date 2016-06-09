@@ -7,3 +7,12 @@ $('#BarDeNavigation > ul > li > a').click(function() {
     $(this).parent().addClass('active_custom');
 });
 
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    var trigerCompetance =  ($(document).height() / 5) * 1.05 ;
+    
+    if(height  > trigerCompetance) {
+        $('.progress-bar-custom').css('display','block');
+    }
+});

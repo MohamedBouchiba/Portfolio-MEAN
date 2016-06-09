@@ -1,0 +1,166 @@
+.progress-bar-custom{
+    display: none;
+}
+
+.logoHtml{
+    position: absolute;
+    top: 38%;
+    bottom: auto;
+    left: 35%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 19%;
+}
+
+.logoCSS{
+    position: absolute;
+    top: 38%;
+    bottom: auto;
+    left: 65%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 21%;
+}
+
+.logoBootstrap{
+    position: absolute;
+    top: 70%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 30%;
+}
+
+.logoPhp{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 35%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 36%;
+
+}
+
+.logoSymfony{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 69%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 25%;
+
+}
+
+.logoJavascript{
+    position: absolute;
+    top: 38%;
+    bottom: auto;
+    left: 36.5%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 41%;
+}
+
+.logoJquery{
+    position: absolute;
+    top: 39%;
+    bottom: auto;
+    left: 65%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 23%
+}
+
+.logoAngularjs{
+    position: absolute;
+    top: 70%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 26%;
+}
+
+.logoMongoDB{
+    position: absolute;
+    top: 32%;
+    bottom: auto;
+    left: 52%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 50%;
+}
+
+.logoMySQL{
+    position: absolute;
+    top: 62%;
+    bottom: auto;
+    left: 51.5%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 39%;
+}
+
+.logoAndroid{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 34%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 21%;
+}
+
+.logoJava{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 66%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 35%;
+}
+
+.logoGit{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 30%;
+}
+
+
+{
+<!-- ------- Animation des progress bar -------- -->
+}
+
+
+.annimation-HtmlCss{
+
+    animation-duration: 0.5s;
+    animation-delay: 1.2s;
+}
+
+.annimation-phpsymfony{
+
+    animation-duration: 0.5s;
+    animation-delay: 0.7s;
+}
+
+.annimation-JS{
+
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+}
+
+
+
+.annimation-BDD{
+
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+}
+
+.annimation-Java{
+
+    animation-duration: 0.5s;
+    animation-delay: 0.7s;
+}
+
+.annimation-Git{
+
+    animation-duration: 0.5s;
+    animation-delay: 1.2s;
+}

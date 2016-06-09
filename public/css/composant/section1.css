@@ -121,6 +121,120 @@
     animation-delay: 3.3s;
     text-align: center;
 }
+/* Pour Tablet */
+@media (max-width: 768px) {
+
+    .logo-mohamed {
+        display: block;
+        width: 18.5%;
+        position: relative;
+        top: 20%;
+        left: 42%;
+        text-align: center;
+        animation-duration: 2.6s;
+        animation-delay: 3.9s;
+    }
+
+    .animated.rubberBand {
+
+        animation-duration: 3s;
+        -webkit-animation-delay: 2.2s;
+        -o-animation-delay: 2.2s;
+        animation-delay: 4.2s;
+    }
+
+    .ecrant-gauche {
+        display: block;
+        width: 19% !important;
+        position: relative;
+        top: 39%;
+        left: 8%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .ecrant-droite {
+
+        display: block;
+        width: 19% !important;
+        position: relative;
+        top: 39%;
+        left: 27.35%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .clavier {
+
+        display: block;
+        width: 18% !important;
+        position: relative;
+        top: 75%;
+        left: -10%;
+        animation-duration: 0.5s;
+        animation-delay: 0.8s;
+        text-align: center;
+
+    }
+
+    .souris {
+
+        display: block;
+        width: 6.3% !important;
+        position: relative;
+        top: 69%;
+        left: -7.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.3s;
+        text-align: center;
+
+    }
+
+    .block-note {
+
+        display: block;
+        width: 12.2% !important;
+        position: relative;
+        top: 70%;
+        left: -3.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.8s;
+        text-align: center;
+    }
+
+    .papier {
+
+        display: block;
+        width: 8.7% !important;
+        position: relative;
+        top: 70%;
+        left: -56.5%;
+        animation-duration: 0.5s;
+        animation-delay: 2.3s;
+        text-align: center;
+    }
+
+    .cafe {
+
+        display: block;
+        width: 8.4% !important;
+        position: relative;
+        top: 71%;
+        left: -55.5%;
+        animation-duration: 0.5s;
+        animation-delay: 2.8s;
+        text-align: center;
+    }
+
+    .ipad {
+
+        display: none;
+    }
+
+
+}
 
 /* Landscape phones and down */
 @media (max-width: 600px) {
