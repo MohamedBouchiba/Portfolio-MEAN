@@ -15,14 +15,31 @@ Couleur secondaire du site : #CEBDA3
 Couleur tertiaire du site : #635C52
 */
 
+
 html , body {
     height: 100%;
+
 }
 .container_custom{
     height: 100%;
     padding-left: 1px;
     padding-right: 1px;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
 /* --- Google Font ---*/
 @font-face {
     font-family: 'Indie Flower';
