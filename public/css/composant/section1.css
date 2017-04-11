@@ -1,7 +1,7 @@
 .section1 {
     margin: 0;
     padding: 0;
-    background: url("../../img/home-background.jpg") no-repeat center fixed;
+    background: url("../../img/home-background.jpg") repeat space center fixed;
     height: 100%;
     width: 100%;
 }
@@ -91,7 +91,7 @@
     display: block;
     width: 6.7% !important;
     position: relative;
-    top: 70%;
+    top: 72%;
     left: -56.5%;
     animation-duration: 0.5s;
     animation-delay: 2.3s;
@@ -103,7 +103,7 @@
     display: block;
     width: 6.4% !important;
     position: relative;
-    top: 71%;
+    top: 73%;
     left: -55.5%;
     animation-duration: 0.5s;
     animation-delay: 2.8s;
@@ -121,12 +121,19 @@
     animation-delay: 3.3s;
     text-align: center;
 }
-/* Pour Tablet */
-@media (max-width: 768px) {
+
+@media (min-width: 1950px) {
+    .ipad {
+        display: none;
+    }
+}
+
+/* Pour Ecran-Ordinateur-normal*/
+@media (max-width: 1700px) {
 
     .logo-mohamed {
         display: block;
-        width: 18.5%;
+        width: 17.4%;
         position: relative;
         top: 20%;
         left: 42%;
@@ -145,84 +152,76 @@
 
     .ecrant-gauche {
         display: block;
-        width: 19% !important;
+        width: 25% !important;
         position: relative;
-        top: 39%;
-        left: 8%;
+        top: 38%;
+        left: -4%;
         animation-duration: 0.5s;
         animation-delay: 0.3s;
         text-align: center;
     }
 
     .ecrant-droite {
-
         display: block;
-        width: 19% !important;
+        width: 25% !important;
         position: relative;
         top: 39%;
-        left: 27.35%;
+        left: 20%;
         animation-duration: 0.5s;
         animation-delay: 0.3s;
         text-align: center;
     }
 
     .clavier {
-
         display: block;
-        width: 18% !important;
+        width: 25% !important;
         position: relative;
-        top: 75%;
-        left: -10%;
+        top: 70%;
+        left: -32%;
         animation-duration: 0.5s;
         animation-delay: 0.8s;
         text-align: center;
-
     }
 
     .souris {
-
         display: block;
         width: 6.3% !important;
         position: relative;
-        top: 69%;
-        left: -7.5%;
+        top: 75%;
+        left: -32.5%;
         animation-duration: 0.5s;
         animation-delay: 1.3s;
         text-align: center;
-
     }
 
     .block-note {
-
         display: block;
-        width: 12.2% !important;
+        width: 15.2% !important;
         position: relative;
-        top: 70%;
-        left: -3.5%;
+        top: 62%;
+        left: 0.5%;
         animation-duration: 0.5s;
         animation-delay: 1.8s;
         text-align: center;
     }
 
     .papier {
-
         display: block;
-        width: 8.7% !important;
+        width: 9.7% !important;
         position: relative;
-        top: 70%;
-        left: -56.5%;
+        top: 40%;
+        left: -36.5%;
         animation-duration: 0.5s;
         animation-delay: 2.3s;
         text-align: center;
     }
 
     .cafe {
-
         display: block;
-        width: 8.4% !important;
+        width: 9.4% !important;
         position: relative;
-        top: 71%;
-        left: -55.5%;
+        top: 50%;
+        left: -60.5%;
         animation-duration: 0.5s;
         animation-delay: 2.8s;
         text-align: center;
@@ -233,12 +232,201 @@
         display: none;
     }
 
+}
+
+@media (max-width: 1200px) {
+
+    .logo-mohamed {
+        display: block;
+        width: 27.64%;
+        position: relative;
+        top: 20%;
+        left: 38%;
+        text-align: center;
+        animation-duration: 2.6s;
+        animation-delay: 3.9s;
+    }
+
+    .animated.rubberBand {
+
+        animation-duration: 3s;
+        -webkit-animation-delay: 2.2s;
+        -o-animation-delay: 2.2s;
+        animation-delay: 4.2s;
+    }
+
+    .ecrant-gauche {
+        display: block;
+        width: 29% !important;
+        position: relative;
+        top: 47%;
+        left: -3.5%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .ecrant-droite {
+        display: block;
+        width: 29% !important;
+        position: relative;
+        top: 47%;
+        left: -6.5%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .clavier {
+        display: block;
+        width: 28% !important;
+        position: relative;
+        top: 53%;
+        left: -5%;
+        animation-duration: 0.5s;
+        animation-delay: 0.8s;
+        text-align: center;
+    }
+
+    .souris {
+        display: block;
+        width: 8.3% !important;
+        position: relative;
+        top: 56%;
+        left: -5.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.3s;
+        text-align: center;
+    }
+
+    .block-note {
+        display: block;
+        width: 18.2% !important;
+        position: relative;
+        top: 52%;
+        left: 0.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.8s;
+        text-align: center;
+    }
+    .papier {
+
+        display: none;
+    }
+
+    .cafe {
+        display: block;
+        width: 11.4% !important;
+        position: relative;
+        top: 49%;
+        left: -25.5%;
+        animation-duration: 0.5s;
+        animation-delay: 2.8s;
+        text-align: center;
+    }
+
+    .ipad {
+        display: none;
+    }
+}
+
+
+/* Pour mini-Tablet */
+@media (max-width: 800px) {
+
+    .logo-mohamed {
+        display: block;
+        width: 35%;
+        position: relative;
+        top: 16%;
+        left: 35%;
+        text-align: center;
+        animation-duration: 2.6s;
+        animation-delay: 3.9s;
+    }
+
+    .animated.rubberBand {
+
+        animation-duration: 3s;
+        -webkit-animation-delay: 2.2s;
+        -o-animation-delay: 2.2s;
+        animation-delay: 4.2s;
+    }
+
+    .ecrant-gauche {
+        display: block;
+        width: 33% !important;
+        position: relative;
+        top: 43%;
+        left: -23%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .ecrant-droite {
+        display: block;
+        width: 33% !important;
+        position: relative;
+        top: 25%;
+        left: 25%;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        text-align: center;
+    }
+
+    .clavier {
+        display: block;
+        width: 41% !important;
+        position: relative;
+        top: 35%;
+        left: 24%;
+        animation-duration: 0.5s;
+        animation-delay: 0.8s;
+        text-align: center;
+    }
+
+    .block-note {
+        display: block;
+        width: 35.2% !important;
+        position: relative;
+        top: 30%;
+        left: 23.5%;
+        animation-duration: 0.5s;
+        animation-delay: 1.8s;
+        text-align: center;
+    }
+
+    .cafe {
+        display: block;
+        width: 13.4% !important;
+        position: relative;
+        top: 31%;
+        left: -66.5%;
+        animation-duration: 0.5s;
+        animation-delay: 2.8s;
+        text-align: center;
+    }
+
+    .souris {
+
+        display: none;
+    }
+
+    .papier {
+
+        display: none;
+    }
+
+    .ipad {
+
+        display: none;
+    }
 
 }
 
 /* Landscape phones and down */
-@media (max-width: 600px) {
-
+@media (max-width: 650px) {
 
     .logo-mohamed {
         display: block;
@@ -297,7 +485,6 @@
 
     }
 
-
     .cafe {
 
         display: block;
@@ -328,6 +515,5 @@
 
         display: none;
     }
-
 
 }
