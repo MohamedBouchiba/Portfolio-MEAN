@@ -7,6 +7,10 @@ $('#BarDeNavigation > ul > li > a').click(function() {
     $(this).parent().addClass('active_custom');
 });
 
+var filterizd = $('.filtr-container').filterizr({
+    //options object
+});
+
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 

@@ -1,4 +1,11 @@
+@import "MenuProjetProtefolio.css";
+@import "divProjetPortefolio.css";
 .section3{
+    margin: 0;
+    padding: 0% 0.5% 1% 0.5%;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
     background-color: #CEBDA3;
-    height: 100%;
+    font-family: 'Merriweather', serif;
 }

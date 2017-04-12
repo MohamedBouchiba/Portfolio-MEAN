@@ -19,13 +19,11 @@
 }
 
 #BarDeNavigation > ul > li > a:hover {
-
     background-color: #FFF;
     color:#635C52;
 }
 
 #BarDeNavigation > ul > li > a:focus {
-
     background-color: #C3AE8E !important;
     border-radius: 14px;
     color:#FFF;

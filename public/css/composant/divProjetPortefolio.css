@@ -1,0 +1,17 @@
+.containerProjet{
+    text-align: center;
+    padding: 1%;
+}
+
+.containerProjet img {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.divProject{
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
