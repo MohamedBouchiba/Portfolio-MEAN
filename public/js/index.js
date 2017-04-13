@@ -11,6 +11,15 @@ var filterizd = $('.filtr-container').filterizr({
     //options object
 });
 
+$('#modal-content-demo').apFullscreenModal({
+    openSelector: '#open-modal',
+    backgroundColor: '#222',
+    closeSelector: '.close-modal',
+    animationDuration: 500
+
+});
+
+
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 

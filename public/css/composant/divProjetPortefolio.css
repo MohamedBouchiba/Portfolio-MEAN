@@ -1,12 +1,14 @@
 .containerProjet{
     text-align: center;
     padding: 1%;
+
 }
 
 .containerProjet img {
     width: auto;
     height: auto;
     margin: auto;
+    user-select: none;
 }
 .divProject{
     position: relative;
@@ -14,4 +16,40 @@
     width: auto;
     height: auto;
     text-align: center;
+}
+
+.titre_projet{
+    margin-bottom: 5%;
+    font-size: 150%;
+}
+
+
+.description_projet{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    min-height: 45%;
+
+}
+
+.button_custom{
+    height: auto;
+    width: 50%;
+    margin: 0px auto;
+    position: relative;
+    background-color: #635C52;
+    padding: 1.5%;
+    border: solid 1px black;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 90%;
+    border-radius: 15%;
+    text-align: center;
+    user-select: none;
+    box-shadow: 1px 1px  1px #635C52;
+}
+
+.button_custom:hover{
+    cursor: pointer;
+    color: #635C52;
+    background-color: #FFF;
 }

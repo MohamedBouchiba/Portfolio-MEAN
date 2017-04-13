@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>MEAN APP</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
+    <link rel="stylesheet" href="../bower_components/imagehover.css/css/imagehover.css">
+    <link rel="stylesheet" href="css/ap-fullscreen-modal.min.css">
     <link rel="stylesheet" href="css/material.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -104,6 +105,11 @@
 
 <!--Page À propos de moi -->
 <section class="section2 col-lg-12 col-md-12 col-xs-12" id="section2">
+        <div class="container">
+            <div class="cadreTitre">
+                <h1 class="h1 Titre">À propos de moi</h1>
+            </div>
+        </div>
     <section class="cd-horizontal-timeline">
         <div class="timeline">
             <div class="events-wrapper">
@@ -427,109 +433,179 @@
 </section><!--End Page À propos de moi -->
 
 <!--Page Portefolio -->
-
-
 <section class="section3 col-lg-12 col-md-12 col-xs-12" id="section3">
     <div class="container-fluid">
         <div class="row">
-            <div class="cadreCategorieProjet">
-                <ul>
-                    <!-- For filtering controls add -->
-                    <li data-filter="all">Toutes catégories</li>
-                    <li data-filter="1">Developpement Web</li>
-                    <li data-filter="2">Developpement Mobile</li>
-                    <li data-filter="3">Objets connectés</li>
-                    <li data-filter="4">Big Data</li>
-                    <li data-filter="5">Category</li>
-                    <!-- For a shuffle control add
-                    <li data-shuffle> Shuffle items </li>-->
-                </ul>
+            <div class="container">
+                <div class="cadreTitre">
+                    <h1 class="h1 Titre">Mes réalisations</h1>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="filtr-container">
+            <div class="container">
+                <div class="cadreCategorieProjet">
+                    <ul>
+                        <!-- For filtering controls add -->
+                        <li data-filter="all">Toutes catégories</li>
+                        <li data-filter="1">Developpement Web</li>
+                        <li data-filter="2">Developpement Mobile</li>
+                        <li data-filter="3">Objets connectés</li>
+                        <li data-filter="4">Big Data</li>
+                        <li data-filter="5">Category</li>
+                        <!-- For a shuffle control add
+                        <li data-shuffle> Shuffle items </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
 
+            <div class="filtr-container">
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="1" data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/BetDataProjet.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">BetData</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="2"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/ProjetByKaza.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">ByKaza</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="3"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/LittleBurgerProjet.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">Little Burger</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="4"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/WelkeysProject.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">Welkeys</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="5"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/KlapProjet.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">Klap</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="5, 2"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/URLabProject.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+                                <div class="titre_projet">URLab</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
                 <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="1, 4"
                      data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
-                            <img class="img-responsive" src="http://placehold.it/350x240" alt="sample">
+                            <img class="img-responsive" src="img/ProjetsImage/GoodStratTest.png" alt="sample">
                             <figcaption>
-                                <button type="button" class="btn btn-primary">Primary</button>
+
+                                <div class="titre_projet">GoodStrat</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+
+                <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="1, 4"
+                     data-sort="value">
+                    <div class="divProject">
+                        <figure class="imghvr-shutter-in-out-diag-2">
+                            <img class="img-responsive" src="img/ProjetsImage/EclipseProjet.png" alt="sample">
+                            <figcaption>
+                                <div class="titre_projet">Eclipse</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom" id="open-modal">En savoir plus</div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div style="display: none;">
+                    <div id="modal-content-demo" class="modal-content">
+                    </div>
+                </div>
+
+
+
+
+                <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="1, 4"
+                     data-sort="value">
+                    <div class="divProject">
+                        <figure class="imghvr-shutter-in-out-diag-2">
+                            <img class="img-responsive" src="img/ProjetsImage/BlueLendingProject.png" alt="sample">
+                            <figcaption>
+                                <div class="titre_projet">BlueLending</div>
+                                <div class="description_projet">Description du projet en une phrase voir deux. blablalbalbalblalbalbalbablalbl</div>
+                                <div class="button_custom">En savoir plus</div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
-
-
 </section>
 
 
@@ -545,6 +621,7 @@
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/modernizr.js"></script>
+<script src="js/ap-fullscreen-modal.min.js"></script>
 <script src="js/roundProgress.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script>
