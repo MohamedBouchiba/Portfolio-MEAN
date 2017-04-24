@@ -1,0 +1,94 @@
+.container-popup{
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+
+}
+
+.titreProjetPopup{
+    margin: 5% 10% 8% 10%;
+    font-size: 330%;
+}
+
+.paragraphPopup{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Merriweather', serif;
+    font-size: 130%;
+    margin-bottom: 10%;
+
+}
+
+.imgPopup{
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.socialLinkPopup{
+    position: relative;
+    display: block;
+    margin-bottom: 5%;
+}
+
+
+
+
+.modal-content{
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    user-select: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    margin: 6px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-google-plus{
+    background: #dd4b39;
+}
+
+.fa-twitter{
+    background-color: #55ACEE;
+}
+
+.fa-android{
+    background-color: #a4c639;
+}
+
+.fa-instagram{
+    background-color: #125688;
+}
+
+.fa-external-link{
+    background-color: #CEBDA3;
+}
+
+.fa-file-pdf-o{
+    background-color: #e4120d;
+}
+
+.fa-apple{
+    background-color: #000000;
+}
+
+.fa-linkedin{
+    background-color: #007bb5;
+}

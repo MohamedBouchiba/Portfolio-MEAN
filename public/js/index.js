@@ -19,6 +19,27 @@ $('#modal-content-demo').apFullscreenModal({
 
 });
 
+$(".input-send").click(function () {
+   nom = $("#name").val();
+   message = $("#message").val();
+   coordonee = $("#email").val();
+
+   alert(nom + message + coordonee)
+    $.ajax({
+        url : '../php/email.php',
+        type : 'GET',
+        data : 'nom='+nom + 'message='+message+'coordonee='+coordonee,
+        dataType : 'html',
+        success : function(reponse, statut){
+            alert(reponse)
+        },
+
+        error : function(resultat, statut, erreur){
+
+        }
+
+    });
+});
 
 $(window).scroll(function() {
     var height = $(window).scrollTop();

@@ -1,4 +1,20 @@
+@import "FormulaireDeContact.css";
+
 .section5{
-    background-color: #419641;
+    /*background-color: #419641;*/
     height: 100%;
+}
+
+.footer-custuom{
+    background-color: #CEBDA3;
+    margin: 0px auto;
+
+}
+.socialMediaDiv{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }

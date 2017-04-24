@@ -1,4 +1,15 @@
 .section4{
-    background-color: #9c27b0;
-    height: 100%;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.img-testimonial{
+    text-align: center;
+    margin: auto;
+}
+
+.testimonial{
+    margin-top: 9%;
 }
