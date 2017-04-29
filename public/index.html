@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>MEAN APP</title>
+    <link rel="stylesheet" href="../node_modules/remodal/dist/remodal.css">
+    <link rel="stylesheet" href="../node_modules/remodal/dist/remodal-default-theme.css">
     <link rel="stylesheet" href="../bower_components/imagehover.css/css/imagehover.css">
     <link rel="stylesheet" href="css/ap-fullscreen-modal.min.css">
     <link rel="stylesheet" href="css/material.min.css">
@@ -101,7 +103,6 @@
     </div><!--End Image ipad avec animation-->
 
 </section><!--End Page d'accueil -->
-
 
 <!--Page À propos de moi -->
 <section class="section2 col-lg-12 col-md-12 col-xs-12" id="section2">
@@ -449,8 +450,8 @@
                 <div class="cadreCategorieProjet">
                     <ul>
                         <!-- For filtering controls add -->
-                        <li data-filter="all">Toutes catégories</li>
-                        <li data-filter="1">Developpement Web</li>
+                        <li class="ToutCateg" data-filter="all">Toutes catégories</li>
+                        <li class="CategDevWeb" data-filter="1">Developpement Web</li>
                         <li data-filter="2">Developpement Mobile</li>
                         <li data-filter="3">Objets connectés</li>
                         <li data-filter="4">Big Data</li>
@@ -463,7 +464,8 @@
         <div class="row">
 
             <div class="filtr-container">
-                <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="4, 1" data-sort="value">
+                <div class="filtr-item containerProjet col-lg-3 col-md-6 col-xs-12" data-category="4, 1"
+                     data-sort="value">
                     <div class="divProject">
                         <figure class="imghvr-shutter-in-out-diag-2">
                             <img class="img-responsive" src="img/ProjetsImage/BetDataProjet.png" alt="sample">
@@ -675,7 +677,8 @@
                 <img src="img/MichelJautzy.jpg" width="200" class="img-circle img-responsive img-testimonial" alt="">
                 <blockquote>
                     <p class="lead">
-                        Mohamed est trés bon développeur avec une attention particulière aux détails et un bon sens des affaires.
+                        Mohamed est trés bon développeur avec une attention particulière aux détails et un bon sens des
+                        affaires.
                         Il a travaillé six mois dans ma société en tant que stagiaire,
                         il a développé diverses plates-formes Web complexes et des applications hybrides,
                         et a dépassé mes attentes. C'était génial de l'avoir dans mon équipe!
@@ -687,7 +690,7 @@
             </div>
 
             <div class="box-testimonial col-xs-12 col-md-6 col-sm-6">
-                <img src="img/Houssin.jpg"  width="200" class="img-circle img-responsive img-testimonial" alt="">
+                <img src="img/Houssin.jpg" width="200" class="img-circle img-responsive img-testimonial" alt="">
                 <blockquote class="blockquote">
                     <p class="lead">
                         Mohamed a fait preuve d'un grand professionnalisme en s'adaptent très rapidement à mes besoins.
@@ -730,14 +733,24 @@
             </div>
         </div>
     </div>
+    <div class="remodal" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <img src="img/mohamed.fw.png" class="img-responsive img-circle img-popup-send"  width="140" alt="">
+        <p class="message-send">
+            Je viens de recevoir votre message ! Je vous garantis une réponse dans la journée. Merci d'avoir pris le temps pour me contacter. À très bientôt !
+        </p>
+        <br>
+        <button data-remodal-action="confirm" class="remodal-confirm">D'accord</button>
+    </div>
     <div class="container-fluid footer-custuom">
         <div class="row">
             <div class="socialMediaDiv">
-                <div class="fa fa-facebook"></div>
-                <div class="fa fa-twitter"></div>
-                <div class="fa fa-google-plus"></div>
-                <div class="fa fa-instagram"></div>
-                <div class="fa fa-linkedin"></div>
+                <a target="_blank" href="https://www.facebook.com/people/Mohamed-Bouchiba/100008523646348"><div class="fa fa-facebook"></div></a>
+                <a target="_blank" href="https://twitter.com/Bouchiba1993"><div class="fa fa-twitter"></div></a>
+                <a target="_blank" href="https://plus.google.com/u/0/108755500483118911807"><div class="fa fa-google-plus"></div></a>
+                <a target="_blank" href="https://www.instagram.com/mohamedbouchiba/?hl=fr"><div class="fa fa-instagram"></div></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mohamed-bouchiba-1b3b36a9/"><div class="fa fa-linkedin"></div></a>
+                <a target="_blank" href="https://github.com/MohamedBouchiba"><div class="fa fa-github" aria-hidden="true"></div></a>
             </div>
         </div>
     </div>
@@ -760,5 +773,6 @@
 </script>
 <script src="js/index.js"></script>
 <script src="controllers/controller.js"></script>
+<script src="../node_modules/remodal/dist/remodal.min.js"></script>
 </body>
 </html>

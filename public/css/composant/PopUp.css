@@ -1,0 +1,29 @@
+.img-popup-send{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.message-send:before{
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.message-send:after{
+    content: close-quote;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.message-send{
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 0;
+}

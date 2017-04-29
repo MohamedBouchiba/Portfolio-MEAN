@@ -1,6 +1,12 @@
 /**
  * Created by Bouchiba on 14/05/2016.
  */
+$(document).ready(function () {
+   $(".CategDevWeb").trigger("click");
+   $(".ToutCateg").trigger("click");
+});
+
+
 $('#BarDeNavigation > ul > li > a').click(function() {
     $('li').removeClass();
     $(this).parent().css('background-color','#B5A183 !important');
@@ -18,24 +24,25 @@ $('#modal-content-demo').apFullscreenModal({
     animationDuration: 500
 
 });
-
 $(".input-send").click(function () {
-   nom = $("#name").val();
-   message = $("#message").val();
-   coordonee = $("#email").val();
 
-   alert(nom + message + coordonee)
+   var visiteur = new Object();
+   visiteur.nom = $("#name").val();
+   visiteur.message = $("#message").val();
+   visiteur.coordonee = $("#email").val();
+
+   var visiteurJson = JSON.stringify(visiteur);
+
     $.ajax({
-        url : '../php/email.php',
-        type : 'GET',
-        data : 'nom='+nom + 'message='+message+'coordonee='+coordonee,
-        dataType : 'html',
+        url : 'php/email.php',
+        type : 'POST',
+        data : 'donnee='+visiteurJson,
         success : function(reponse, statut){
-            alert(reponse)
+            var inst = $('[data-remodal-id=modal]').remodal();
+            inst.open();
         },
-
         error : function(resultat, statut, erreur){
-
+            alert("Erreur veuillez réessayer plus tard")
         }
 
     });
